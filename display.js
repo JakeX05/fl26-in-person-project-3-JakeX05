@@ -9,7 +9,7 @@
 
 // TODO: Students will build the header section
 // Instructor will demonstrate, then students will code along
-/*
+
 let headerHTML = `
     <header>
         <h1>${portfolio.owner.name}</h1>
@@ -20,11 +20,11 @@ let headerHTML = `
 
 // We'll use document.write() for immediate visual feedback
 document.write(headerHTML);
-*/
+
 
 // TODO: Students will build the skills section
 // This uses a simple for loop (they know array.length and array[i])
-/*
+
 let skillsHTML = '<section id="skills"><h2>My Skills</h2><ul class="skills-list">';
 
 // Using a basic for loop to add each skill
@@ -34,11 +34,11 @@ for (let i = 0; i < portfolio.skills.length; i++) {
 
 skillsHTML = skillsHTML + '</ul></section>';
 document.write(skillsHTML);
-*/
+
 
 // TODO: Students will build the projects section
 // This is more complex because we're working with an array of objects
-/*
+
 let projectsHTML = '<section id="projects"><h2>My Projects</h2><div class="projects-grid">';
 
 for (let i = 0; i < portfolio.projects.length; i++) {
@@ -59,7 +59,7 @@ for (let i = 0; i < portfolio.projects.length; i++) {
 
 projectsHTML = projectsHTML + '</div></section>';
 document.write(projectsHTML);
-*/
+
 
 // TODO: Advanced students can try creating different versions
 // Example: Only show featured projects
